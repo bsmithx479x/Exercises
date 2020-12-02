@@ -1,0 +1,143 @@
+  
+* {
+    box-sizing:border-box;
+}
+
+body {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    padding: 0;
+    margin: auto;
+    max-width: 960px;
+}
+
+.topImage {
+    padding: 10px
+}
+
+hr {
+    background-color: #a00;
+    height: 1px;
+    border: 0;
+}
+
+span {
+    color: black;
+}
+
+.navBar {
+    text-align: center;
+    background-color: #a00;
+    border-radius: 25px;
+    padding: 8px;
+}
+
+.navBar a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px  10px;
+    background-color: #a00;
+    color: white;
+    font-size: 20px;
+}
+
+
+.banner .image1 {
+    float: left;
+    padding: 10px;
+    width: 66%;
+}
+
+.banner .image2 {
+    float: right;
+    padding: 10px;
+    width: 33.3%;
+}
+
+.banner .image2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    clear: both;
+    margin: 10px auto;
+}
+
+.currentEvents {
+    display: block;
+    clear: both;
+}
+
+.currentEvents h3 {
+    text-align: center;
+    color: #a00;
+}
+
+.currentEvents ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+
+
+.recent {
+    text-align: center;
+    color: #a00;
+    
+}
+
+.recentPosts h2 {
+    color: #a00;
+}
+
+article img {
+    float: left;
+    padding: 5px;
+}
+
+.recentPosts {
+    padding: 5px;
+    width: 65%;
+    float: left;
+    border-right: .5px solid #a00;
+    
+}
+
+.recentPosts div {
+    border-bottom: .5px solid #a00;
+}
+
+.sponsor {
+    clear: both;
+}
+
+.sponser h3 {
+    text-align: center;
+}
+
+.sponser img {
+    padding: 5px;
+}
+
+footer{
+    clear:both;
+}
+
+footer nav {
+    display: inline;
+    float: right;
+}
+
+footer h3 {
+    display: inline;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: #a00;
+    padding: 10px;
+    
+   
+}
