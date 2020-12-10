@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+body {
+    width: 500px;
+    margin: 20px auto;
+    
+}
+
+input{
+    display: block;
+}
+
+div {
+    padding: 20px;
+}
+
+#checkBox, #submit, #reset {
+    display: inline-block !important;
+}
+
+#message {
+    color: red;
+}
+
+h1 {
+    color: green;
+}
