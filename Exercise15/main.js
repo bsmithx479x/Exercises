@@ -6,7 +6,7 @@
       });
 
       $("#btnTwo").click(function () {
-          var html = $('.update-html').html("Hello World!");
+          var html = $('.update-html').html("<h3>Hello World!</h3>");
       });
 
       $("#btnThree").click(function () {
